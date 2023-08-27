@@ -1,6 +1,6 @@
 ---
 layout: about-single
-title: About
+title: 关于
 ---
 
 Node-RED is a flow-based programming tool, originally developed by [IBM's Emerging Technology Services](https://emerging-technology.co.uk)

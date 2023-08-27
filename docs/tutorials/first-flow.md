@@ -1,51 +1,44 @@
 ---
 layout: docs-tutorial
 toc: toc-user-guide.html
-title: Creating your first flow
+title: 创建你的第一个流程
 slug: first flow
 redirect_from:
   - /docs/getting-started/first-flow
 ---
 
-### Overview
+### 概述
 
-This tutorial introduces the Node-RED editor and creates a flow that demonstrates
-the Inject, Debug and Function nodes.
+本教程介绍了 Node-RED 编辑器，并创建了一个演示注入、调试和函数节点的流程。
 
+### 1. 访问编辑器
+[运行](/docs/getting-started) Node-RED 后，在 Web 浏览器中打开编辑器。
 
-### 1. Access the editor
+如果你在同一台运行 Node-RED 的计算机上使用浏览器，你可以通过 <http://localhost:1880> 访问它。
 
-With Node-RED [running](/docs/getting-started), open the editor in a web browser.
-
-If you are using a browser on the same computer that is running Node-RED, you can
-access it with the url: <http://localhost:1880>.
-
-If you are using a browser on another computer, you will need to use the ip address
-of the computer running Node-RED: `http://<ip-address>:1880`.
+如果在另一台计算机上使用浏览器，则需要使用运行 Node-RED: `http://<ip-address>:1880` 的计算机的 ip 地址。
 
 
-### 2. Add an Inject node
+### 2. 添加一个注入(Inject)节点
 
-The Inject node allows you to inject messages into a flow, either by clicking
-the button on the node, or setting a time interval between injects.
+通过单击节点上的按钮或设置注入之间的时间间隔，可以将消息注入到流中。
 
-Drag one onto the [workspace](/docs/user-guide/editor/workspace/) from the
-[palette](/docs/user-guide/editor/palette/).
+将其中一个从[调色板(palette)](/docs/user-guide/editor/palette/) 拖到[工作区(workspace)](/docs/user-guide/editor/workspace/) 上。
 
-Select the newly added Inject node to see information about its properties and a
-description of what it does in the [Information sidebar pane](/docs/user-guide/editor/sidebar/info).
+选择新添加的 Inject 节点，可以在 [信息侧栏(Information sidebar pane)](/docs/user-guide/editor/sidebar/info) 中查看有关其属性的信息以及关于它的操作的说明。
 
-### 3. Add a Debug node
+### 3. 添加一个调试(Debug)节点
 
 The Debug node causes any message to be displayed in the
 [Debug sidebar](/docs/user-guide/editor/sidebar/debug). By
 default, it just displays the payload of the message, but it is possible to
 display the entire message object.
 
-### 4. Wire the two together
+调试节点能够在[调试侧栏(Debug sidebar)](/docs/user-guide/editor/sidebar/debug) 中显示任何消息。默认情况下，它只显示消息(msg)负载(payload)，但是可以显示整个消息对象。
 
-Connect the Inject and Debug nodes together by [dragging between](/docs/user-guide/editor/workspace/wires)
-the output port of one to the input port of the other.
+### 4. 将两者连接起来
+
+通过在一个节点的输出端口与另一个节点的输入端口之间拖动，将注入节点和调试节点[连接在一起 (dragging between)](/docs/user-guide/editor/workspace/wires) 。
 
 ### 5. Deploy
 

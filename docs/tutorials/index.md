@@ -1,21 +1,19 @@
 ---
 layout: docs-tutorial
-title: Tutorials
+title: 教程 
 ---
 
-The following tutorials will help you get started with Node-RED and learn how
-to get the most from it.
+下面的教程将帮助您开始使用 Node-RED，并学习如何从中获得最大收益。
 
 <div style="margin-top:40px">
 
 <div class="post-preview">
   <a href="first-flow">
     <div class="post-header">
-      <h2>Your first flow</h2>
+      <h2>你的第一个流程</h2>
     </div>
     <div class="post-content">
-    This tutorial introduces the Node-RED editor and creates a flow the demonstrates
-    the Inject, Debug and Function nodes.
+      本教程介绍了 Node-RED 编辑器，并创建了一个演示注入、调试和函数节点的流程。
     </div>
   </a>
 </div>
@@ -23,11 +21,10 @@ to get the most from it.
 <div class="post-preview">
   <a href="second-flow">
     <div class="post-header">
-      <h2>Your second flow</h2>
+      <h2>你的第二个流程</h2>
     </div>
     <div class="post-content">
-    This tutorial builds on the first tutorial to make a flow that
-    starts to bring in data from external sources to do something useful locally.
+      本教程构建在第一个教程的基础上，使流开始从外部源引入数据，以在本地执行一些有用的操作。
     </div>
   </a>
 </div>
@@ -35,10 +32,10 @@ to get the most from it.
 <div class="post-preview">
   <a href="https://www.youtube.com/channel/UCQaB8NXBEPod7Ab8PPCLLAA">
     <div class="post-header">
-      <h2>YouTube channel</h2>
+      <h2>YouTube 频道</h2>
     </div>
     <div class="post-content">
-    Our YouTube channel contains a series of short videos covering all the basics, as well as what is new in each release. Total viewing time less than an hour.
+      我们的 YouTube 频道包含一系列简短的视频，涵盖了所有的基础知识，以及每个版本中的新内容。总观看时间少于一小时。
     </div>
   </a>
 </div>

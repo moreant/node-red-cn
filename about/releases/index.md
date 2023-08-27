@@ -1,7 +1,7 @@
 ---
 layout: about-single
 title: Release Plan
-slug: releases
+slug: 版本
 ---
 
 _Updated: 2022-08-04_

@@ -1,14 +1,14 @@
 ---
 layout: docs-user-guide
-title: User Guide
+title: 用户指南
 ---
 
-### Getting Started
+### 开始
 
- - [Installing Node-RED](/docs/getting-started)
- - [Creating your first flow](/docs/tutorials/first-flow)
- - [Node-RED Concepts](/docs/user-guide/concepts)
- - [Using the Node-RED Editor](/docs/user-guide/editor)
+ - [安装 Node-RED](/docs/getting-started)
+ - [创建你的第一个流程](/docs/tutorials/first-flow)
+ - [Node-RED 概念](/docs/user-guide/concepts)
+ - [使用 Node-RED 编辑器](/docs/user-guide/editor)
 
 ### Configuring Node-RED
 
