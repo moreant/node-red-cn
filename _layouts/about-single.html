@@ -1,11 +1,11 @@
 {% assign top_url = '/about' %}
 {% assign top_slug = 'about' %}
-{% include header.html %}
+{% include header.{{site.active_lang}}.html %}
 <div class="docs">
     {% include breadcrumbs.html %}
     <div class="grid">
         <div id="toc-column" class="col-3-12">
-            {% include toc-about.html %}
+            {% include toc-about.{{site.active_lang}}.html %}
             {% include toc-footer.html %}
         </div>
         <div class="col-9-12">
@@ -16,4 +16,4 @@
         </div>
     </div>
 </div>
-{% include footer.html %}
+{% include footer.{{site.active_lang}}.html %}

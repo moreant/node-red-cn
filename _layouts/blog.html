@@ -1,4 +1,4 @@
-{% include header.html %}
+{% include header.{{site.active_lang}}.html %}
 {% assign top_url = '/blog' %}
 {% assign top_slug = 'blog' %}
 {% assign author = site.authors[page.author] %}
@@ -26,4 +26,4 @@
     </div>
   </div>
 </div>
-{% include footer.html %}
+{% include footer.{{site.active_lang}}.html %}

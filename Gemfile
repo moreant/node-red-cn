@@ -11,3 +11,7 @@ gem "jekyll-paginate", "~> 1.1"
 gem "jekyll-redirect-from", "~> 0.16.0"
 
 gem "webrick", "~> 1.7"
+
+group :jekyll_plugins do
+   gem "jekyll-polyglot"
+end
